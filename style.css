@@ -4,7 +4,9 @@ body {
   }
 
 #textcontainer {
-  padding-left: 20px;
+  position:absolute;
+  bottom: 30px;
+  left: 50px;
   font-family: 'Courier New', Courier, monospace;
   font-weight: 300;
 }
