@@ -1,4 +1,19 @@
 body {
-    background: #000;
-    color: #fff
+    background: rgb(199, 189, 169);
+    color: #000;
   }
+
+#textcontainer {
+  padding-left: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 300;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  text-decoration: underline;
+}
