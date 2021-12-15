@@ -1,5 +1,3 @@
-hi there!
+Hi there!
 
-currently studying full-stack software engineering at flatiron school
-most interested in front-end development + working with react & css
-if you'd like to collab, i'm all ears!
+Currently studying Full-Stack Software Engineering at Flatiron School. I'm most interested in Front-End Development + working with React & CSS. If you'd like to collab, I'm all ears.
