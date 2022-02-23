@@ -4,18 +4,18 @@ body {
   }
 
 #textcontainer {
-  position:absolute;
-  bottom: 30px;
+  position: absolute;
+  top: 30px;
   left: 50px;
   font-family: 'Courier New', Courier, monospace;
   font-weight: 300;
 }
 
 a {
-  text-decoration: none;
+  text-decoration: underline;
   color: #000;
 }
 
 a:hover {
-  text-decoration: underline;
+  color: rgb(139, 135, 124);
 }
