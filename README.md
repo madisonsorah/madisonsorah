@@ -1,3 +1,3 @@
-Hi there!
+Hi there! My name is Madison and I'm based in Brooklyn, NY. 
 
-Currently studying Full-Stack Software Engineering at Flatiron School. I'm most interested in Front-End Development + working with React & CSS. If you'd like to collab, I'm all ears.
+I recently graduated from the Software Engineering Live program at Flatiron School. Currently, I'm most interested in front-end development, as well as working with React, JavaScript, HTML and CSS.
