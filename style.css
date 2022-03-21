@@ -1,12 +1,35 @@
 body {
-    background: rgb(235, 231, 225);
+  background: rgb(235, 231, 225);
+  background-size: 70px 70px;
+  background-image: linear-gradient(to right, #000 1px, transparent 1px), linear-gradient(to bottom, #000 1px, transparent 1px);
+  margin: 0px;
+  max-height: 100vh;
+  min-width: 1500px;
+  background-color: rgb(235, 231, 225);
+  overflow: hidden;
+}
+
+.home {
+    border: 1px;
+    border-style: solid;
+    border-color: #000;
+    background-color: rgb(235, 231, 225);
     color: #000;
-  }
+    width: 419px;
+    height: 279px;
+    margin-top: calc(70px * 1);
+    margin-left: calc(70px * 1);
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 
 #textcontainer {
   position: absolute;
-  top: 30px;
-  left: 50px;
+  margin-top: 25px;
+  margin-left: 40px;
   font-family: 'Courier New', Courier, monospace;
   font-weight: 300;
 }
@@ -19,3 +42,4 @@ a {
 a:hover {
   color: rgb(139, 135, 124);
 }
+
