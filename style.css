@@ -26,11 +26,15 @@ body {
 
 #textcontainer {
   position: absolute;
-  margin-left: 30px;
+  margin-left: 35px;
   font-family: 'Courier New', Courier, monospace;
   font-weight: 300;
   text-overflow: wrap;
   width: 300px;
+}
+
+.personalname {
+  margin-top: 12px;
 }
 
 
