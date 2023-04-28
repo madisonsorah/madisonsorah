@@ -1,21 +1,48 @@
 <!DOCTYPE html>
 <html lang='en'>
   <head>
-    <link rel='stylesheet' href='style.css'/>
-    <title>madison sorah</title>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <style>
+      body {
+        background: rgb(235, 231, 225);
+        background-size: 40px 40px;
+        background-image: linear-gradient(to right, rgb(219, 215, 209) 1px, transparent 1px), linear-gradient(to bottom, rgb(219, 215, 209) 1px, transparent 1px);
+        color: #000;
+        font-family: 'Courier New', Courier, monospace;
+      }
+
+      .text-box {
+        top: 50%;
+        left: 50%;
+        width: 30em;
+        height: 18em;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        position: fixed;
+        font-size: 12pt;
+      }
+
+      .link {
+        text-decoration: underline;
+        color: #000;
+      }
+
+      .link:hover {
+        color: rgb(114, 111, 103);
+      }
+    </style>
   </head>
+  
   <body>
-    <script src='script.js'></script>
-    <div class='home'>
-      <div id='textcontainer'>
-        <p class='personalname'>madison sorah</p>
-        <p class='personal'>former pr creative turned software engineer.</p>
-        <p class='personal'>let's collaborate!</p>
-        <p class='personal'>madisonsorah@gmail.com</p>
-        <a href='https://www.linkedin.com/in/madisonsorah' class='personal'>linkedin</a> |
-        <a href='https://github.com/madisonsorah' class='personal'>github</a> |
-        <a href='https://medium.com/@madisonsorah' class='personal'>medium</a>
-      </div>
+    <div class='text-box'>
+      <p>madison sorah</p>
+      <p>former pr creative turned software engineer</p>
+      <p>madisonsorah@gmail.com</p>
+      <a href='https://www.linkedin.com/in/madisonsorah' class='link'>linkedin</a> |
+      <a href='https://github.com/madisonsorah' class='link'>github</a> |
+      <a href='https://medium.com/@madisonsorah' class='link'>medium</a>
     </div>
   </body>
+
 </html>
